@@ -1,0 +1,198 @@
+div.result1 {
+  background: #fff;
+  color: #606060;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+div.result1 p.head1 {
+  margin: 10px 0;
+}
+
+div.result1 a {
+  color: #606060;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+div.result1 a.active, div.result1 a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+div.result1 h1, div.result1 h1 + p {
+  margin: 0.67em 0;
+}
+
+div.result1 h1 {
+  font-weight: 600;
+}
+
+div.result1 table {
+  width: 100%;
+  margin-bottom: 10px;
+  background: #dfdfdf;
+}
+
+div.result1 table thead {
+  background: #606060;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+div.result1 table thead tr th {
+  text-align: center;
+}
+
+div.result1 table tbody tr td {
+  border: 1px solid #606060;
+}
+
+div.result1 table tbody tr td a {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+div.result1 .popup_prmotionhd {
+  padding: 0;
+}
+
+div.result1 .conditions-body {
+  background: #dfdfdf;
+  border: 1px solid #fff;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+div.result1 .popup_prmotionhd .promo_txthd {
+  margin-right: -3%;
+}
+
+div.result1 table.resultall {
+  color: #000;
+  margin-bottom: 1px;
+}
+
+div.result1 table.resultall tbody tr td {
+  border: 1px solid #212121;
+}
+
+table.resultall tbody tr.head {
+  background: #606060;
+  color: #fff;
+  border: 1px solid #212121;
+}
+
+table.resultall tbody tr.head td.single {
+  vertical-align: middle;
+}
+
+table.resultall tbody tr td.merah {
+  color: #ff0000;
+}
+
+
+.owl-carousel.btn {
+  padding: 0;
+}
+
+.owl-carousel.btn .owl-item button span{
+  color: #fff;
+}
+
+.box_rwo .owl-theme .owl-nav {
+    display: block !important;
+}
+
+.box_rwo .owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.box_rwo .owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 20%;
+    right: 0px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.box_rwo .owl-prev i, .box_rwo .owl-next i {transform : scale(1,3);}
+
+.mobile_page ol {
+    list-style: decimal;
+    padding-left: 40px;
+}
+
+.contactusbg span {
+  position: relative;
+  top: 6px;
+}
+
+.contactusbg span img  {
+  margin-right: 5px;
+}
+
+.login .icon2, .login .icon1 {
+    width: 6%;
+    padding: 0 1%;
+    float: left;
+    margin-top: 3%;
+}
+
+.sign_row {width: 25%; float: right;}
+
+.sign_row .icon2, .sign_row .icon1 {
+    width: 6%;
+    padding: 0 1%;
+    float: left;
+    margin-top: 5%;
+}
+
+.sign_row .userro {width: 18%; padding: 0px 2%; float: left;}
+
+.sign_row .pswrd {
+  width: 16%;
+  float: left;
+  padding: 0px 1%;
+}
+
+.sign_row .incaptcha {
+  width: 16%;
+  padding: 0px 1%;
+  float: left;
+}
+
+.sign_row .captcta {
+  width: 14%;
+  float: left;
+  padding: 20px 5px 0px 0px;
+}
+
+.sign_row .sign_i {
+  width: 42%;
+  float: left;
+  text-align: center;
+  font-size: 17px;
+}
+
+.sign_row .sign_up {
+  width: 12%;
+  float: left;
+  text-align: center;
+  font-size: 17px;
+}
+.form-group.note-form-group input{
+  color: #000;
+}
+.note-editor.note-frame .modal-content{
+  background: #3a3a3a;
+}

@@ -1,0 +1,228 @@
+i {
+    font-style: italic;
+}
+.bal-provider {
+    display: none;
+}
+.icon-sosmed-mini {
+	float: left;
+    margin: 8px 9px 0 0;
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 4%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 4%;
+    right: 0px;
+    display: block !important;
+    border:0px solid black;
+}
+.owl-prev i, .owl-next i {transform : scale(1,2);}
+
+.topnvbg .nav-list .owl-theme .owl-nav {
+  display: block !important;
+}
+
+
+/*START ADDED AT 12 MARCH 2019*/
+.sgn_frm .input-group[class*=col-], #form_login .input-group[class*=col-] {
+    float: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.sgn_frm i, #form_login i {
+    font-size: 12px;
+    padding-bottom: 0px;
+}
+.sgn_frm .input-group-addon {
+    background-color: #fff;
+}
+.sgn_frm .form-control, #form_login .form-control {
+    margin-top: 0px;
+}
+.sgn_frm .form-group, #form_login .form-group {
+    margin-bottom: 10px;
+}
+.sgn_frm .input-group-addon {
+    border: 1px solid rgba(0,0,0,.15);
+}
+.sgn_frm .input-group .form-control:not(:first-child):not(:last-child), .sgn_frm .input-group-addon:not(:first-child):not(:last-child), .sgn_frm .input-group-btn:not(:first-child):not(:last-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#form_login .form-control1 {
+    margin-top: 0px;
+}
+#form_login .form-group1 {
+    padding-top: 20px;
+}
+#form_login .active .label-control .label-text {
+    opacity: 1;
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    transform: scale(0.9);
+}
+#form_login .input-group-addon {
+    border: none;
+    background-color: transparent;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.sgn_frm .span_sh_password, .sgn_frm1 .span_sh_password, #form_edit_account .span_sh_password, #withdrawForm .span_sh_password, .frm_regist .span_sh_password {
+    border: none;
+}
+.clear:before, .clear:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.clear:after {
+    clear: both;
+}
+.height_auto {
+    height: auto;
+}
+#form_edit_account .input-sm {
+    border: none;
+}
+#form_login .form-control {
+    border: none;
+}
+.sgn_frm1 .form-control {
+    margin-top: 0px;
+    border: none;
+}
+/*END ADDED AT 12 MARCH 2019*/
+
+input::-ms-clear, input::-ms-reveal {
+	display: none;
+}
+
+.popup_prmotionhd {
+    padding: 0px;
+}
+
+.popup_prmotionhd .promo_txtright {
+    font-size: 17px;
+}
+
+.popup_prmotionhd .promo_txthd {
+    margin-top: -4%;
+    text-align: unset;
+}
+
+.popup_prmotionhd .promo_txthd img {
+    width: 19px;
+}
+
+.conditions-body {
+    padding: 0px;
+}
+
+.confirmation-modal .modal-header {
+    padding: 0 15px;
+}
+
+.confirmation-modal .modal-body {
+    padding: 0 15px;
+}
+
+.confirmation-modal .modal-footer {
+    padding: 0 15px;
+}
+
+span.read-less {
+    width: 100%;
+    float: left;
+}
+
+.readmore + [data-readmore-toggle], .readmore[data-readmore] {
+    display: inline-block !important;
+    width: auto !important;
+}
+a.readClass {
+    display: block;
+    text-align: center;
+}
+a.masuk.pad {
+    padding: 3px 10px;
+}
+
+.reminder {
+    margin: 100px;
+}
+
+a.moreClass, a.readClass {
+    display:table !important;
+    margin: 10px auto 5px !important;
+    padding: 2px 10px;
+}
+
+.spok p + p {
+    padding: 0;
+}
+
+.spok .readmore ol {
+    list-style-type:decimal;
+    padding-inline-start: 40px;
+}
+
+.spok .readmore ul {
+    list-style-type:disc;
+    padding-inline-start: 40px;
+}
+.sign_row .icon {
+    width: 6%;
+    padding: 0 1%;
+    float: left;
+    margin-top: 3%;
+}
+
+.reminder button.batal {
+    border: none;
+    background-image: -moz-linear-gradient( 90deg, rgb(208,5,5) 0%, rgb(254,47,24) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(208,5,5) 0%, rgb(254,47,24) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(208,5,5) 0%, rgb(254,47,24) 100%);
+    font-size: 15px;
+    color: #fff;
+    border-radius: 17px;
+    padding: 7px 25px;
+}
+
+.reminder button.batal:hover {
+    background-image: -moz-linear-gradient( -90deg, rgb(208,5,5) 0%, rgb(254,47,24) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(208,5,5) 0%, rgb(254,47,24) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(208,5,5) 0%, rgb(254,47,24) 100%);
+}
+
+.reminder button.setuju {
+    border: none;
+    border-radius: 17px;
+}
+
+.reminder .input-group.col-xs-9 {
+    width: 90%;
+}
+
+.vertical1 tr td {
+    vertical-align: middle;
+}
+
+.vertical1 {
+    margin-bottom: 15px;
+}

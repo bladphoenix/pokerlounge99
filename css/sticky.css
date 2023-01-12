@@ -1,0 +1,20 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+.footer {
+  bottom: 0;
+  width: 100%;
+  background: url(../images/home/footerbg.jpg) repeat-x center top;
+	/*padding: 9px 0px 9px 0px*/
+}
+   
+
+
+    
